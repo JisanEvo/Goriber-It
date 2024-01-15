@@ -157,7 +157,7 @@ margin-top: 50px;
 }
 
 .feature-img{
-width: 50%;
+/* width: 50%; */
 }
 
 .feature-content{
@@ -187,10 +187,35 @@ box-shadow: #18191F;
 
 }
 
+footer{
+    margin-top: 50px;
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
 
 
+}
+.footer-section{
+    background: #0A0826;
+    color: #FFF;
+text-align: center;
+    padding-top: 20px;
+}
+.footer-description{
+    font-size: 0.75rem;
 
+}
 
+.icon {
+padding-left: 10px;
+}
+
+.developer{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: monospace;
+}
 
 
 
@@ -249,4 +274,16 @@ width: 100px;
 .card1 img{
     width: 100%;
 }
+.feature{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.feature-content{
+    padding-left: 10px;
+}
+.feature-img img{
+    width: 100%;
+}
+
 }
